@@ -1,0 +1,118 @@
+{
+  "newReviews": [
+    {
+      "id": 1,
+      "stars": "4",
+      "userName": "TexArdvark",
+      "date": "01/03/2021",
+      "title": "Good gaming news aggregator",
+      "text": " This here is a brand new slot game released by the game provider Realtime Gaming called “Fantasy Mission Force” that has actually been themed after the cult movie set in World War II and that was very popular back ... "
+    },
+    {
+      "id": 2,
+      "stars": "1",
+      "userName": "YungStud",
+      "date": "21/9/2020",
+      "title": "Just a little Short",
+      "text": "What do you get when you take Harvest Moon, take out all the RPG elements, add some really simple puzzles and then charge £17 for it? Well, you get Harvest Moon: Mad Dash, and you might well wish you ..."
+    },
+    {
+      "id": 3,
+      "stars": "5",
+      "userName": "MagicBean",
+      "date": "7/11/2020",
+      "title": "Good gaming news aggregator",
+      "text": "It’s not often you will find depth in an online casino game, but as the online marketplace for casino games gets more saturated, more and more companies will look to add a little something extra to their ..."
+    },
+    {
+      "id": 4,
+      "stars": "2",
+      "userName": "SutorLake",
+      "date": "5/2/2021",
+      "title": "Good gaming news aggregator",
+      "text": "The summer of 2017 turned out to be quite exciting for science fiction loving slots enthusiast who were treated with a proper gem of a game brewed by the world’s leading omni-channel online gaming software provider ..."
+    },
+    {
+      "id": 5,
+      "stars": "4",
+      "userName": "TexArdvark",
+      "date": "01/03/2021",
+      "title": "Good gaming news aggregator",
+      "text": " This here is a brand new slot game released by the game provider Realtime Gaming called “Fantasy Mission Force” that has actually been themed after the cult movie set in World War II and that was very popular back ... "
+    },
+    {
+      "id": 6,
+      "stars": "1",
+      "userName": "YungStud",
+      "date": "21/9/2020",
+      "title": "Just a little Short",
+      "text": "What do you get when you take Harvest Moon, take out all the RPG elements, add some really simple puzzles and then charge £17 for it? Well, you get Harvest Moon: Mad Dash, and you might well wish you ..."
+    },
+    {
+      "id": 7,
+      "stars": "5",
+      "userName": "MagicBean",
+      "date": "7/11/2020",
+      "title": "Good gaming news aggregator",
+      "text": "It’s not often you will find depth in an online casino game, but as the online marketplace for casino games gets more saturated, more and more companies will look to add a little something extra to their ..."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "alin",
+      "username": "alinG",
+      "user": "dan",
+      "password": "staan"
+    },
+    {
+      "id": 2,
+      "name": "alin",
+      "username": "alinG",
+      "user": "dan",
+      "password": "staan"
+    },
+    {
+      "name": "a",
+      "username": "a",
+      "password": "a",
+      "id": 3
+    },
+    {
+      "name": "w",
+      "username": "w",
+      "password": "w",
+      "id": 4
+    },
+    {
+      "name": "q",
+      "username": "q",
+      "password": "q",
+      "id": 5
+    },
+    {
+      "name": "a",
+      "username": "a",
+      "password": "a",
+      "id": 6
+    },
+    {
+      "name": "f",
+      "username": "f",
+      "password": "f",
+      "id": 7
+    },
+    {
+      "name": "j",
+      "username": "j",
+      "password": "j",
+      "id": 8
+    },
+    {
+      "name": "k",
+      "username": "k",
+      "password": "k",
+      "id": 9
+    }
+  ]
+}

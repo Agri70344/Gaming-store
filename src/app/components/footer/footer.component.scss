@@ -1,0 +1,57 @@
+footer {
+    height: 50px; // for this example, can be anything
+    margin-top: -150px; // exact same value as the height
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    color: grey;
+    padding: .25em 0;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.footer-name{
+    text-align: center;
+    margin :0;
+    font-size: 2em;
+    font-family: 'Times New Roman';
+    color:white;  
+}
+.nav a:hover{
+    background-color: rgba(255,255,255,.3);
+    border-radius: 5px;
+}
+.main-footer-container ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li{
+    padding: 0 .5em;
+}
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+    border-radius: 35px;
+}
+.nav ul{
+    margin:0;
+}
+.nav li{
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: .1em;
+    color:white;
+    text-decoration: none;
+}
