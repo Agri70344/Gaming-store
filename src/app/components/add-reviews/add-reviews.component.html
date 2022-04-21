@@ -1,30 +1,65 @@
-<img src="assets/images/review.jpeg" id="myImg"/>
+<img src="assets/images/review.jpeg" id="myImg" />
 
-<div class = "container">
-    <form [formGroup]="articleForm" (ngSubmit)="submitReview()">
-        <div *ngIf = "message !=''">
-            <p class ="alert alert-info" rolle="alert">{{message}}</p>
-        </div>
-        <div class="mb-3 form-group">
-            <label for="stars" class="form-label">Stars</label>
-            <input type="number" min="1" max="5" class="form-control" formControlName="stars" id="stars" required aria-describedby="stars">
-        </div>
-        <div class="mb-3 form-group">
-            <label for="userName" class="form-label">UserName</label>
-            <input type="text" class="form-control" formControlName="userName" id="userName"  aria-describedby="userName">
-            </div>
-            <div class="mb-3 form-group">
-            <label for="date" class="form-label">Date</label>
-            <input type="date" class="form-control" formControlName="date" id="date" aria-describedby="date">
-            </div>
-            <div class="mb-3 form-group">
-            <label for="title" class="form-label">Title</label>
-            <input type="text" class="form-control" formControlName="title" id="title" required aria-describedby="title">
-            </div>
-            <div class="mb-3 form-group">
-                <label for="text" class="form-label">Text</label>
-                <input type="text" class="form-control" formControlName="text" id="text" required aria-describedby="text">
-            </div>
-            <button type="submit" class="btn btn-primary">Send Review</button>
-        </form>
+<div class="container">
+  <form [formGroup]="articleForm" (ngSubmit)="submitReview()">
+    <div *ngIf="message != ''">
+      <p class="alert alert-info" rolle="alert">{{ message }}</p>
+    </div>
+    <div class="mb-3 form-group">
+      <label for="stars" class="form-label">Stars</label>
+      <input
+        type="number"
+        min="1"
+        max="5"
+        class="form-control"
+        formControlName="stars"
+        id="stars"
+        required
+        aria-describedby="stars"
+      />
+    </div>
+    <div class="mb-3 form-group">
+      <label for="userName" class="form-label">UserName</label>
+      <input
+        type="text"
+        class="form-control"
+        formControlName="userName"
+        id="userName"
+        aria-describedby="userName"
+      />
+    </div>
+    <div class="mb-3 form-group">
+      <label for="date" class="form-label">Date</label>
+      <input
+        type="date"
+        class="form-control"
+        formControlName="date"
+        id="date"
+        aria-describedby="date"
+      />
+    </div>
+    <div class="mb-3 form-group">
+      <label for="title" class="form-label">Title</label>
+      <input
+        type="text"
+        class="form-control"
+        formControlName="title"
+        id="title"
+        required
+        aria-describedby="title"
+      />
+    </div>
+    <div class="mb-3 form-group">
+      <label for="text" class="form-label">Text</label>
+      <input
+        type="text"
+        class="form-control"
+        formControlName="text"
+        id="text"
+        required
+        aria-describedby="text"
+      />
+    </div>
+    <button type="submit" class="btn btn-primary">Send Review</button>
+  </form>
 </div>

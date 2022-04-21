@@ -1,32 +1,28 @@
-<img src="assets/images/review.jpeg" id="myImg"/>
+<img src="assets/images/review.jpeg" id="myImg" />
 
-<div class="container2"> 
-    <div class="table-header">
-        <h1 >LogIn to leave a review!</h1>
-    </div>
-    <table class="table">
-        <thead>
-        <tr>
-            <th scope="col">Score</th>
-            <th scope="col">UserName</th>
-            <th scope="col">Date</th>
-            <th scope="col">Title</th>
-            <th scope="col">Comment</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr *ngFor ="let rewiev of listReview">
-            <td>{{rewiev.stars}}/5</td>
-            <td>{{rewiev.userName}}</td>
-            <td>{{rewiev.date}}</td>
-            <td>{{rewiev.title}}</td>
-            <td>{{rewiev.text}}</td>
-            <button (click)="deleteUsers(rewiev.id)" >Delete my review</button>
-        </tr>
-        </tbody>
-        
-    </table>
-    
-</div>  
-
-
+<div class="container2">
+  <div class="table-header">
+    <h1>LogIn to leave a review!</h1>
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Score</th>
+        <th scope="col">UserName</th>
+        <th scope="col">Date</th>
+        <th scope="col">Title</th>
+        <th scope="col">Comment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let rewiev of listReview">
+        <td>{{ rewiev.stars }}/5</td>
+        <td>{{ rewiev.userName }}</td>
+        <td>{{ rewiev.date }}</td>
+        <td>{{ rewiev.title }}</td>
+        <td>{{ rewiev.text }}</td>
+      </tr>
+    </tbody>
+    <button (click)="deleteUsers(8)">Delete review</button>
+  </table>
+</div>

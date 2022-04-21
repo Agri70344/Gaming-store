@@ -55,6 +55,14 @@
       "date": "7/11/2020",
       "title": "Good gaming news aggregator",
       "text": "It’s not often you will find depth in an online casino game, but as the online marketplace for casino games gets more saturated, more and more companies will look to add a little something extra to their ..."
+    },
+    {
+      "stars": 3,
+      "userName": "dan",
+      "date": "0022-01-02",
+      "title": "good",
+      "text": "mvdlmv;dk",
+      "id": 8
     }
   ],
   "users": [
@@ -113,6 +121,30 @@
       "username": "k",
       "password": "k",
       "id": 9
+    },
+    {
+      "name": "Alin",
+      "username": "AlinGames",
+      "password": "1234",
+      "id": 10
+    },
+    {
+      "name": "alin",
+      "username": "alin",
+      "password": "alin",
+      "id": 11
+    },
+    {
+      "name": "a",
+      "username": "a",
+      "password": "a",
+      "id": 12
+    },
+    {
+      "name": "dan",
+      "username": "dan",
+      "password": "dan",
+      "id": 13
     }
   ]
 }

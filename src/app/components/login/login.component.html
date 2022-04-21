@@ -1,18 +1,35 @@
-<img src="assets/images/review.jpeg" id="myImg"/>
-<div class = "container">
-    <form [formGroup]="logInForm" (ngSubmit)="readallUsers()">   
+<img src="assets/images/review.jpeg" id="myImg" />
+<div class="container">
+  <form [formGroup]="logInForm" (ngSubmit)="readallUsers()">
+    <div class="mb-3 form-group">
+      <label for="username" class="form-label">UserName</label>
+      <input
+        type="text"
+        class="form-control"
+        formControlName="username"
+        id="img"
+        aria-describedby="username"
+      />
+    </div>
 
-            <div class="mb-3 form-group">
-            <label for="username" class="form-label">UserName</label>
-            <input type="text" class="form-control" formControlName="username" id="img" aria-describedby="username">
-            </div>
+    <div class="mb-3 form-group">
+      <label for="password" class="form-label">Password</label>
+      <input
+        type="text"
+        class="form-control"
+        formControlName="password"
+        id="img"
+        aria-describedby="password"
+      />
+    </div>
 
-            <div class="mb-3 form-group">
-                <label for="password" class="form-label">Password</label>
-                <input type="text" class="form-control" formControlName="password" id="img" aria-describedby="password">
-            </div>
-            
-            <button type="submit" class="btn btn-primary">Submit</button>
-            <button type="submit" routerLink="/registration" class=" all btn btn-primary">Register here</button>
-        </form>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button
+      type="submit"
+      routerLink="/registration"
+      class="all btn btn-primary"
+    >
+      Register here
+    </button>
+  </form>
 </div>

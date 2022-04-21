@@ -1,0 +1,45 @@
+<img src="assets/images/evolution-of-gaming-consoles.jpeg" id="myImg" />
+
+<div class="container">
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="/consoles">Back to Consoles</a>
+      <a routerLink="/cart">
+        <i class="fa fa-cart-arrow-down" aria-hidden="true">
+          <span class="cart">{{ itemInCart }}</span></i
+        ></a
+      >
+    </div>
+  </nav>
+</div>
+
+<div class="row">
+  <div class=".col-sm-12 col-md-4">
+    <div class="images" *ngFor="let image of product.imgUrls; let i = index">
+      <img class="imag" [src]="image" alt="" (mouseenter)="displayedImg = i" />
+    </div>
+  </div>
+
+  <div class=".col-sm-12 col-md-3">
+    <img
+      class="main-img"
+      [src]="product.imgUrls[displayedImg]"
+      alt=""
+      style="width: 110%"
+    />
+  </div>
+  <div class=".col-sm-12 offset-md-1 col-md-4 cart-detail">
+    <h3>
+      {{ product.name }}
+    </h3>
+    <h5>
+      {{ product.desc }}
+    </h5>
+    <h2>
+      {{ product.price | currency: "RON " }}
+    </h2>
+    <button class="btn btn-info" (click)="addToCart(product)">
+      Add to cart
+    </button>
+  </div>
+</div>

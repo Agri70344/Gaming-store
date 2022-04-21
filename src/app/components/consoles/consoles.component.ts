@@ -1,34 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-
-declare const ready: any;
-declare const addToCart: any;
-declare const purchaseClicked: any;
-declare const removeCartItem: any;
-declare const quantityChanged: any;
-declare const addToCartClicked: any;
-declare const addItemToCart: any;
-declare const updateCartTotal: any;
+import { Product } from 'src/app/models';
+import { ProductService } from 'src/app/services/product.service';
 
 @Component({
   selector: 'app-consoles',
   templateUrl: './consoles.component.html',
-  styleUrls: ['./consoles.component.scss']
+  styleUrls: ['./consoles.component.scss'],
 })
 export class ConsolesComponent implements OnInit {
+  products: Product[] = [];
 
-  constructor() { }
+  constructor(private productService: ProductService) {}
 
-  ngOnInit(): void {
-
-    new ready();
-    new  addToCart();
-    new purchaseClicked();
-    new removeCartItem();
-    new quantityChanged();
-    new addToCartClicked();
-    new addItemToCart;
-    new updateCartTotal();
+  ngOnInit() {
+    this.products = this.productService.getProducts();
   }
-   
-
 }
